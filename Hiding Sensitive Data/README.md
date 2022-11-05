@@ -4,7 +4,7 @@ Sensitive information will be hidden using 3 simple regexes to 3 columns of a My
 
 At the end a CSV file will be created containing the "secret data"
 
-### Init example db
+### Init example db
 
 1. git clone https://github.com/datacharmer/test_db
 2. docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=password -d -p 3306:3306 mysql
@@ -97,8 +97,8 @@ steps = [
 
 
 The Scoop configuration file consists of 4 steps:
- - input jdbc: to load employees table inside spark context
- - sql: to limit data (only for example purpose)
- - script scala: to apply the regex
- - output csv: to write data into the csv file
+ - **input jdbc** to load employees table inside spark context
+ - **sql** to limit data (only for example purpose)
+ - **script scala** to apply the regex
+ - **output csv** to write data into the csv file
 
