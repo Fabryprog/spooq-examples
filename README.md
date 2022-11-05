@@ -2,7 +2,7 @@
 
 ## Spooq Use Case
 
-This repo aims to demonstrate the ease of use of Spooq applied to real use cases
+This repo aims to demonstrate the ease of use of [Spooq](https://github.com/supermariolabs/spooq) applied to real use cases
 
  - [Hiding Sensitive Data](Hiding%20Sensitive%20Data/README.md)
 
