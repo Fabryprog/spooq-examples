@@ -6,7 +6,7 @@ Let's try to apply this paradigm using Spooq
 
 ![DB Schema](denormalization.png)
 
-### Init example db
+### Init example db
 
 1. git clone https://github.com/datacharmer/test_db
 2. docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=password -d -p 3306:3306 mysql
