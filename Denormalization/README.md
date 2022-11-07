@@ -154,7 +154,7 @@ steps = [
 ]
 ```
 
-The Scoop configuration file consists of 4 steps:
+The Scoop configuration file consists of the following steps:
  - three jdbc: to load tables inside spark context
  - more sql: to extract and join data
  - two output parquet: to write data into cold storage
